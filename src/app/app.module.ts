@@ -9,8 +9,7 @@ import { ProductListComponent } from './product-list/product-list.component';
 
 @NgModule({
   imports: [
-    BrowserModule,
-    ReactiveFormsModule,
+    BrowserModule,ReactiveFormsModule,
     RouterModule.forRoot([
       { path: '', component: ProductListComponent },
     ])
